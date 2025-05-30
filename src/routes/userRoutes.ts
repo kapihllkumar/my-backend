@@ -13,10 +13,6 @@ import { protect } from '../middlewares/auth';
 
 const router = express.Router();
 
-router.get('/', (req, res) => {
-  res.json({ message: 'Users route works!' });
-});
-
 router.post('/register', registerUserHandler);
 router.post('/login', authUserHandler);
 
