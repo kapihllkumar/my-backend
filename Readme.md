@@ -157,8 +157,7 @@ npm run importdata
 
 - `npm run dev` — Start the development server  
 - `npm run import` — Import property data from CSV  
-- `npm start` — Start the production server  
-- `npm test` — Run tests (to be implemented)  
+- `npm start` — Start the production server   
 
 ---
 
